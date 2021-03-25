@@ -1,0 +1,36 @@
+.Entete {
+  background-color: #000;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 1.1em;
+}
+
+.Entete .btn-deconnexion {
+  color: red;
+  background-color: white;
+  font-size: 0.6em;
+  margin-left: 20px;
+}
+
+.Entete .btn-deconnexion:hover {
+  border: 1px solid red;
+}
+
+.Entete > * {
+  display: flex;
+  padding: 0 20px;
+}
+
+.Entete .utilisateur {
+  align-items: center;
+}
+
+.Entete .utilisateur .avatar {
+  margin-left: 20px;
+  width: 35px;
+  height: 35px;
+}
+/*# sourceMappingURL=Entete.css.map */
